@@ -99,7 +99,11 @@ header {
 }
 
 header.hero {
-    background: linear-gradient(to right, #2c3e50, #3498db);
+    background-image: url(./fotoarduinofondo.jpg.png);
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: #ffffff;
     padding: 80px 20px;
     text-align: center;
@@ -260,7 +264,8 @@ tbody tr:hover {
 }
 
 .contacto p {
-    font-size: 1.1em;.    margin-bottom: 10px;
+    font-size: 1.1em;    
+    margin-bottom: 10px;
 }
 
 footer {
